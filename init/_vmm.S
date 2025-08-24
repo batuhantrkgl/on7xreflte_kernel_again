@@ -38,7 +38,7 @@ _vmm_disable:
 .section .vmm, "ax"
 .global _svmm
 _svmm:
-.incbin "init/vmm.elf"
+.incbin "/home/batuhantrkgl/LOS/kernel/samsung/exynos7870/init/vmm.elf"
 .global _evmm
 _evmm:
 .section .text
