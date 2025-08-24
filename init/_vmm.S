@@ -38,7 +38,7 @@ _vmm_disable:
 .section .vmm, "ax"
 .global _svmm
 _svmm:
-.incbin "$(VMM_ELF_PATH)"
+.incbin "init/vmm.elf"
 .global _evmm
 _evmm:
 .section .text
